@@ -12,7 +12,7 @@ document.getElementById("orderForm").onsubmit = function(e) {
   let idgame = document.getElementById("idgame").value;
 
   let pesan = `Halo Vanzz Store%0ANama: ${nama}%0AGame: ${game}%0AID Game: ${idgame}`;
-  let wa = `https://wa.me/6280000000000?text=${pesan}`;
+  let wa = `https://wa.me/62895801650060?text=${pesan}`;
 
   window.open(wa, "_blank");
 };
